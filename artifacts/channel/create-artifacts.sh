@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-: "${FABRIC_VERSION:=1.4.4}"
-: "${FABRIC_CA_VERSION:=1.4.4}"
+: "${FABRIC_VERSION:=1.4.7}"
+: "${FABRIC_CA_VERSION:=1.4.7}"
 
 # if the binaries are not available, download them
 if [[ ! -d "bin" ]]; then
