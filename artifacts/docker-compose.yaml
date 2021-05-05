@@ -50,7 +50,7 @@ services:
     container_name: orderer.example.com
     extends: 
       file: base.yaml
-      orderer-base
+      service: orderer-base
     ports:
       - 7050:7050
       - 8443:8443

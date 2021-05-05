@@ -10,8 +10,8 @@ services:
     logging:
       driver: "json-file"
       options:
-          max-file: 5
-          max-size: 20m
+          max-file: "5"
+          max-size: "20m"
     environment:
       - CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
       # the following setting starts chaincode containers on the same
@@ -39,8 +39,8 @@ services:
     logging:
       driver: "json-file"
       options:
-          max-file: 5
-          max-size: 20m
+          max-file: "5"
+          max-size: "20m"
     dns_search: .
     environment:
       - ORDERER_GENERAL_LOGLEVEL=debug
